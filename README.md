@@ -1,55 +1,50 @@
-# 🛡️ SOC PCAP Analysis Portfolio
+# 🛡️ SOC PCAP Analysis Lab Series
 
 ## 👨‍💻 Overview
-This repository showcases my hands-on training in SOC (Security Operations Center) workflows using real-world style PCAP analysis.
+This repository contains SOC (Security Operations Center) style PCAP investigations using Wireshark.
 
-The focus is on identifying malicious network activity, tracing attackers, and documenting incidents like a Blue Team analyst.
+Each lab simulates real-world network security incidents including malware infections, Active Directory analysis, and C2 detection.
 
 ---
 
-## 🎯 Objective
-To demonstrate practical skills in:
+## 🎯 Skills Demonstrated
 - Network traffic analysis (Wireshark)
-- Malware infection investigation
-- DNS, SMB, and Kerberos analysis
-- Command & Control (C2) detection
-- IOC extraction and incident reporting
+- Malware investigation (STRRAT RAT)
+- DNS / HTTP / TLS / Kerberos analysis
+- Active Directory enumeration
+- IOC extraction
+- Incident reporting (SOC format)
 
 ---
 
-## 📊 Investigations Completed
+## 📊 Labs Completed
 
-### 🔹 Lab 01 – Fake Software Infection
-- Identified infected endpoint
-- Extracted username using Kerberos traffic
-- Discovered malicious domain and external communication
-- Traced C2 infrastructure
+### 🔹 Lab 01 – PCAP Analysis (Kerberos & DNS)
+Basic network investigation and host identification.
 
----
+### 🔹 Lab 02 – Traffic Analysis
+DNS + TLS behavior analysis and IOC extraction.
 
-### 🔹 Lab 02 – NEMOTODES RAT Incident
-- Confirmed workstation compromise (NetSupport RAT)
-- Analyzed DNS, TLS, and SMB traffic
-- Identified command-and-control communication
-- Extracted key Indicators of Compromise (IOCs)
-- Documented full incident report
+### 🔹 Lab 03 – STRRAT Malware Infection
+- Confirmed STRRAT RAT infection
+- Identified infected host: DESKTOP-SKBR25F
+- Found C2 server communication (141.98.10.69:12132)
+- Analyzed post-infection beaconing behavior
 
 ---
 
-## 🧠 Core Skills Demonstrated
-- PCAP analysis using Wireshark
-- Network-based threat hunting
-- Malware traffic identification
-- Domain and C2 analysis
-- Windows authentication (Kerberos)
-- SOC-style reporting and documentation
+## 🧪 Tools Used
+- Wireshark
+- TCP/IP Analysis
+- DNS / LDAP / Kerberos inspection
+- PCAP investigation techniques
 
 ---
 
-## 🚀 Career Goal
-To develop into a SOC Analyst / Blue Team Engineer with strong skills in network forensics, incident detection, and threat intelligence analysis.
+## 🚀 Goal
+To build real-world SOC analyst skills using structured PCAP investigations.
 
 ---
 
-## ⚠️ Disclaimer
-All labs are based on simulated environments for cybersecurity learning purposes only.
+## 📌 Disclaimer
+All labs are based on public training datasets for educational purposes.
